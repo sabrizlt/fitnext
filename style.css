@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: rgb(123, 255, 0);
+    font-family: sans-serif;
+}
+
+a, .nav-list {
+    text-decoration: none;
+    color: rgb(123, 255, 0);
+}
+
+.title-box {
+    margin: auto;
+    margin-top: 90px;
+    width: 50%;
+    height: 200px;
+    background-color:  rgb(34, 34, 34);
+    border: 5px solid rgb(123, 255, 0);
+    color: rgb(123, 255, 0);
+    border-radius: 20px;
+}
+
+.title {
+    margin: 0;
+    padding: 0%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    font-weight: bold;
+} 
+
+nav {
+    background-color: rgb(34, 34, 34);
+    box-shadow: 2px 5px 20px rgb(123, 255, 0);
+    height: 60px;
+    padding: 0%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(123, 255, 0);
+    color: rgb(34, 34, 34);
+    height: 60px;
+    padding: 0%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul.nav-list {
+    margin: 0;
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+.footer-list {
+    list-style-type: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.home-card {
+    display: flex;
+    margin-top: 50px;
+    width: 400px;
+    height: 350px;
+    background-color:  rgb(34, 34, 34);
+    border: 5px solid rgb(123, 255, 0);
+    color: rgb(123, 255, 0);
+    border-radius: 20px;
+}
+
+.p-card {
+    font-size: 2em;
+    overflow: scroll;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-task {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.task-card {
+    cursor: pointer;
+    display: flex;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color:  rgb(34, 34, 34);
+    border: 5px solid rgb(123, 255, 0);
+    color: rgb(123, 255, 0);
+    border-radius: 20px;
+}
+
+.container-object {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.delete-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid rgb(123, 255, 0);
+    color: rgb(123, 255, 0);
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+.delete-button:hover {
+    background-color: rgb(123, 255, 0);
+    border: 2px solid rgb(123, 255, 0);
+    color: rgb(34, 34, 34);
+}
+
+@media screen and (max-width: 480px ) {
+
+    .title {
+        font-size: 5em;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-box {
+        width: 97%;
+        height: 100px;
+    }
+
+    .container {
+        margin-bottom: 90px;
+    }
+    .task-card {
+        width: 97%;
+    }
+    .container-object {
+        margin-top: 40px;
+    }
+    .container-task {
+        margin-top: 40px;
+    }
+
+    
+    
+}
